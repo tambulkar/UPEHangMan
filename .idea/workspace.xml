@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b7b672f-bb21-4fbc-b92c-a6d163b996e3" name="Default" comment="" />
+    <list default="true" id="3b7b672f-bb21-4fbc-b92c-a6d163b996e3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/dictionary2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/hangman.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +13,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/UPEHangMan$resetHangman.coverage" NAME="resetHangman Coverage Results" MODIFIED="1527287168233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UPEHangMan$hangman.coverage" NAME="hangman Coverage Results" MODIFIED="1527284473522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UPEHangMan$resetHangman.coverage" NAME="resetHangman Coverage Results" MODIFIED="1527291420347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UPEHangMan$hangman.coverage" NAME="hangman Coverage Results" MODIFIED="1527292326602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UPEHangMan$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1526937335975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -19,25 +22,11 @@
       <file leaf-file-name="hangman.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hangman.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+            <state relative-caret-position="611">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dictionary2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dictionary2.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="dictionary.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dictionary.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="9301" column="14" lean-forward="true" selection-start-line="9301" selection-start-column="14" selection-end-line="9301" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -70,10 +59,16 @@
       <find>'s</find>
       <find>who</find>
       <find>everyth</find>
+      <find>nigga</find>
+      <find>lob</find>
+      <find>lobs</find>
     </findStrings>
     <replaceStrings>
       <replace>:</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,6 +76,7 @@
         <option value="$PROJECT_DIR$/resetHangman.py" />
         <option value="$PROJECT_DIR$/dictionary.py" />
         <option value="$PROJECT_DIR$/dictionary.txt" />
+        <option value="$PROJECT_DIR$/dictionary2.txt" />
         <option value="$PROJECT_DIR$/hangman.py" />
       </list>
     </option>
@@ -99,6 +95,7 @@
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -140,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.resetHangman">
+  <component name="RunManager" selected="Python.hangman">
     <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UPEHangMan" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,8 +202,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.resetHangman" />
         <item itemvalue="Python.hangman" />
+        <item itemvalue="Python.resetHangman" />
         <item itemvalue="Python.dictionary" />
       </list>
     </recent_temporary>
@@ -231,11 +228,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27948114" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27948114" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -379,13 +376,17 @@
     <entry file="file://$PROJECT_DIR$/dictionary.py" />
     <entry file="file://$PROJECT_DIR$/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="9301" column="14" lean-forward="true" selection-start-line="9301" selection-start-column="14" selection-end-line="9301" selection-end-column="14" />
+        <state relative-caret-position="186">
+          <caret line="2925" column="5" selection-start-line="2925" selection-start-column="2" selection-end-line="2925" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dictionary2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="10425" column="7" selection-start-line="10425" selection-start-column="7" selection-end-line="10425" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resetHangman.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -396,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hangman.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        <state relative-caret-position="611">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
