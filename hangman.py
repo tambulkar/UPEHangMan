@@ -50,7 +50,7 @@ def findMostComLetter(candidates):
     return max(letterCount.items(), key=operator.itemgetter(1))[0]
 
 
-for i in range(100):
+for i in range(10):
     #Reset lists at beginning of every game
     resetLists()
 
